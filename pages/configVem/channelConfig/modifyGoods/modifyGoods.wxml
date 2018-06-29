@@ -1,0 +1,32 @@
+<view class="container">
+    <form bindsubmit="bindSave">
+    <view class="form-box">
+        <view class="row-wrap" >
+            <view class="label">选择商品</view>
+            <picker bindchange="bindPickerGoodsChange" range="{{array}}">
+              <view class="picker {{selGoods=='请选择'?'hui':''}}">
+                {{selGoods}}
+              </view>
+            </picker>
+        </view>
+
+      <view class="row-wrap">
+            <view class="label">售价</view>
+            <view class="label-right">
+                <input name="salePrice" class="input" type="text" placeholder="商品售价" value="{{addressData.salePrice}}"/>
+            </view>
+        </view>
+        <!-- <view class="row-wrap">
+            <view class="label">手机号码</view>
+            <view class="label-right">
+                <input name="mobile" class="input" maxlength="11" type="number" placeholder="11位手机号码" />
+            </view>
+        </view> -->
+
+
+    </view>
+    <button class="save-btn" formType="submit">保存</button>
+
+    <button type="default" class="cancel-btn" bindtap="bindCancel">取消</button>
+    </form>
+</view>

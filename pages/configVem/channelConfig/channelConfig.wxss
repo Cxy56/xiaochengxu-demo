@@ -1,0 +1,71 @@
+/* page{
+  background-color: #ccc;
+} */
+.serarch-content{
+   background-color: #ccc;
+   /* background: white; */
+   width:650rpx;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-top: auto;
+   padding-left: 20rpx;
+   padding-bottom: auto;
+   margin: 20rpx auto;
+   height: 60rpx;
+   border-radius:5px 5px;
+}
+.search-icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.search-input{
+  width: 500rpx;
+  font-size: 28rpx;
+}
+.search-btn{
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-right: 0rpx;
+  background-color: #2EB897;
+  font-size: 28rpx;
+  align-items: center;
+  border-top-left-radius: 0rpx;
+  border-bottom-left-radius: 0rpx;
+  color:#fff;
+  border:none;
+  position: relative;
+}
+
+.formItem{
+  padding:20rpx 50rpx;
+  border-bottom:1rpx solid #ccc;
+}
+.machineTitle{
+  margin-bottom:20rpx;
+}
+.flex-text{
+  display:flex;
+  flex-wrap: nowrap;
+  font-size:30rpx;
+  /* justify-content:space-between; */
+}
+.configBtn{
+  width:20%;
+  font-size:25rpx;
+  height:25rpx;
+  padding:8rpx;
+  line-height:25rpx;
+  text-align:center;
+  margin-top:25rpx;
+  border: solid 1px #2EB897;
+  border-radius:5px;
+}
+.noResultStyle{
+  font-size:35rpx;
+  color:#ccc;
+  display:flex;
+  justify-content: center;
+}

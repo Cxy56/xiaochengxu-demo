@@ -1,0 +1,29 @@
+<view>
+<view class="title">当前页面获取时间：{{currentTime}}</view>
+<view class="flex-wrp">
+    <view class="flex-item bc_green">      
+         <view class="numStyle">
+            2000.00<text> 元</text>
+         </view>
+         <view class="subTitle">
+         <text >今日销售总金额</text>
+         </view>
+     </view>
+     
+     <view class="flex-item">
+         <view class="numStyle">
+         188<text>瓶</text>
+         </view>
+         <view class="subTitle">
+         <text >今日销售总瓶数</text>
+         </view>
+     </view>      
+  </view>
+
+
+   <view class="container"> 
+   <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+  <!-- <canvas style="width: 300px; height: 200px;" canvas-id="firstCanvas" class="ec-canvas" bindinit="init"></canvas> -->
+   </view> 
+
+</view>

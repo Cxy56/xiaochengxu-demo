@@ -1,0 +1,50 @@
+<view>
+<view class="flex-wrp">
+    <view class="flex-item bc_green" bindtap="channelConfig">      
+         <image class="imgClass"  src="../../assets/Shape.png"></image>
+         <view class="numStyle">
+         <text >货道配置</text>
+         </view>
+         <view class="subTitle">
+         <!-- <text >今日销售</text> -->
+         </view>
+          <view class="bar" style="background-color:#678FE0;"></view>
+     </view>
+     
+     <view class="flex-item"  bindtap="changeVem">
+        <image class="imgClass"  src="../../assets/online.png"></image>
+         <view class="numStyle">
+         更换工控
+         </view>
+         <view class="subTitle">
+         <!-- <text >离线(台) 在线(台)</text> -->
+         </view>
+          <view class="bar" style="background-color:#00CAD2;"></view>
+     </view>      
+  </view>
+
+  <view class="flex-wrp">
+    <view class="flex-item bc_green">
+       <image class="imgClass"  src="../../assets/lack.png"></image>
+         <view class="numStyle">
+              格子机补货
+         <!-- <text >{{totalVemStock}}</text> -->
+         </view>
+         <view class="subTitle">
+         <!-- <text >缺货报警(台)</text> -->
+         </view>
+          <view class="bar" style="background-color:#F06565;"></view>
+    </view>
+
+    <view class="flex-item">
+     <image class="imgClass"  src="../../assets/alarm.png"></image>
+         <view class="numStyle">
+         <text >智能补货</text>
+         </view>
+         <view class="subTitle">
+         <!-- <text >故障报警(台)</text> -->
+         </view>
+          <view class="bar" style="background-color:#F6C05A;"></view>
+          </view>
+  </view>
+  </view>

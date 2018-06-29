@@ -1,0 +1,26 @@
+
+<view>
+
+<view class="serarch-content">
+ <image src="../../assets/search-pic.png" class="search-icon" />
+      <input placeholder="请输入机器编号" class="search-input" maxlength="30" confirm-type="搜索" bindinput='listenerSearchInput' bindconfirm='toSearch'>
+      </input>
+      <button class='search-btn' bindtap="toSearch">搜索
+      </button>
+</view>
+
+<view class="noResultStyle" wx:if="{{noResult}}"> 暂无结果</view>
+ <block wx:else>
+  <view wx:for="{{array}}" class="formItem" bindtap="changeGoods">
+         <view class="machineTitle">机器点位信息</view>
+         <view class="flex-text">
+
+               <view><text>机器编号:NFZF1505895\n</text>
+                     机器点位:浙江工业大学宿舍东区18号楼  </view>
+          
+              <view  class="configBtn"> 货道配置 </view>            
+           </view>              
+  </view>
+</block>
+
+</view>

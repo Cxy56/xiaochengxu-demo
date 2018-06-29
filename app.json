@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/configVem/index/index",
+    "pages/user/login/login",
+    "pages/configVem/channelConfig/channeConfig",
+    "pages/configVem/channelConfig/modifyGoods/modifyGoods",
+    "pages/configVem/channelConfig/changeGoods/changeGoods",
+    "pages/order/todaySales/todaySales",
+    "pages/configVem/changeVem/changeVem",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "运营平台",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#2EB897",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "配置",
+        "pagePath": "pages/configVem/index/index"
+      },
+      {
+        "text": "账单",
+        "pagePath": "pages/logs/logs"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/user/login/login"
+      }
+    ]
+  }
+}

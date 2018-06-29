@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "今日销售",
+  "usingComponents": {
+    "ec-canvas": "../../../ec-canvas/ec-canvas"
+  }
+}

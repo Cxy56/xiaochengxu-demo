@@ -1,0 +1,16 @@
+   
+  <view > 
+  <view class="title"> 商品列表</view>
+
+    <view class="goods-container">
+        <view class="goods-box" wx:for-items="{{goods}}" wx:key="{{index}}" bindtap="modifyGoods" data-id="{{item.id}}">
+           <view class="img-box">
+              <image src="{{item.pic}}" class="image" mode="aspectFit" lazy-load="true"/>
+           </view>
+           <view class="goods-title">{{item.name}}</view>
+           <view style='display:flex;'>
+            <view class="goods-price">¥ {{item.minPrice}}</view>
+           </view>           
+        </view>
+        </view>
+</view> 
